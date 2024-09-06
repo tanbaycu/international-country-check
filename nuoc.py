@@ -1,18 +1,3 @@
-# International Country Check - @T7C
-
-
-
-Đây là mã python đơn giản sử dụng thư viện `requests` để gửi yêu cầu đến API Rest country.
-
-
-## Sử dụng
-
-```bash
-pip install requests countryinfo
-```
-
-Chạy mã sau
-```bash
 import requests
 
 def get_country_info(country_name):
@@ -49,11 +34,3 @@ if info:
 else:
     print("Không tìm thấy thông tin cho quốc gia này.")
 
-```
-
-## Minh họa 
-
-
-<div>
-    <img src="images/image.png" alt="Example Image 1" width="200" style="margin-right: 10px;" />
-</div>
